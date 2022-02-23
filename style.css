@@ -7,18 +7,65 @@
 
 body {
     display: flex;
-    flex: 1;
+
     flex-direction: column;
-    justify-content: space-evenly;
+
 }
 
 .header {
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     top:0;
-    color:white;
+    color:#f9faf8;
     background-color: #1f2937;
     height: 50px;
     width: 100%;
+    font-size: 24px;
+    font-weight: 900;
+
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.rightlinks {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 10pt;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+.heroimage {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+
 }
 
 .footer {
@@ -32,4 +79,31 @@ body {
     align-items: center;
     justify-content: center;
 
+}
+
+.buttons {
+
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+    font-weight: 800;
+    font-size: 8pt;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 8px;
 }
